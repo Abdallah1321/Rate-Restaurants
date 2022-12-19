@@ -44,7 +44,7 @@ const sessionConfig = {
   cookie: {
     httpOnly: true,
     expires: Date.now() + 1000 * 60 * 60,
-    maxAge: 11000 * 60 * 60,
+    maxAge: 1000 * 60 * 60,
   },
 };
 
